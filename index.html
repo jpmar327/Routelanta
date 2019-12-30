@@ -10,8 +10,9 @@
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
       <style>
 		  	  html,body {
-			  height:100vh;
+			  /*height:100vh;*/
 			  width:100vw;
+			  padding-left: 5%;
 		  }
             .info.legend.leaflet-control{
                 background: linear-gradient( -45deg, #203D1E, black, #203D1E, black);
@@ -75,7 +76,7 @@
 			#filtercontainers {
 				width:100vw;
 				height:8%;
-				marign:auto;
+				/*marign:auto;*/
 			}
 
 			#list,#textbox {
@@ -113,13 +114,13 @@
 			
 			}
 			#title {
-				font-size: 70px;
+				font-size: 5vw;
 				text-align: center;
 				width: 80%;
 				font-family: sans-serif;
 				float: left;
 				display: inline;
-				padding-bottom: 5px;*/
+				padding: 0.5% 0;
 			}
 
         </style>
@@ -127,7 +128,7 @@
 
 
   <body>
-  		<div id = title > <img src="pictures/logo.png" alt="logo" style="height: 1.25em;" /> <strong>Routelanta </strong></div>
+  		<div id = title > <img src="pictures/logo.png" alt="logo" style="width:5vw;" /> <strong>Routelanta </strong></div>
 		<div id = "filtercontainers">
 				
 				<select id = "list" onchange="getSelectValue();">
